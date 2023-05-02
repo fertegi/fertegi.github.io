@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>three.js webgl - geometry - spline extrusion</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<!-- <link type="text/css" rel="stylesheet" href="main.css"> -->
+	<style>
+		body {
+			background-color: #f0f0f0;
+			color: #444;
+		}
+
+		a {
+			color: rgb(0, 191, 137);
+		}
+	</style>
+</head>
+
+<body>
+
+	<div id="container">
+		<script type="importmap">
+			{
+				"imports": {
+				  "three": "https://unpkg.com/three@0.150.0/build/three.module.js",
+				  "three/addons/": "https://unpkg.com/three/examples/jsm/"
+				}
+			  }
+		</script>
+		<script type="x-shader/x-fragment" id="fragmentShader"></script>
+		<script type="module" src="index.js"></script>
+		<!-- <script src="https://unpkg.com/three/build/three.module.js"></script> -->
+
+	</div>
+	<div id="info">
+		<a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> - spline extrusion examples
+	</div>
+
+</body>
+
+</html>
